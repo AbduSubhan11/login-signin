@@ -2,7 +2,8 @@ import React from "react";
 
 function page() {
   return (
-    <div className=" space-y-10 w-[600px] md:mx-[30%] md:my-52">
+   <div className="flex justify-center items-center h-screen">
+     <div className="space-y-10 bg-gray-200 p-5 rounded-lg w-[400px]">
       <h1 className="text-center font-bold text-3xl">Sign In</h1>
       <div className="w-full grid ">
         <input
@@ -19,12 +20,13 @@ function page() {
         />
       </div>
 
-      <div className="flex justify-center">
-        <button className=" bg-black text-white px-4 py-2">
-         Sign In
+      <div className="flex justify-center ">
+        <button className=" bg-black text-white px-4 py-2 w-full">
+          Sign In
         </button>
       </div>
     </div>
+   </div>
   );
 }
 
